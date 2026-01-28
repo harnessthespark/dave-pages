@@ -136,6 +136,28 @@
         .footer a:hover {
             text-decoration: underline;
         }
+
+        .disclaimer {
+            background: rgba(255, 255, 255, 0.5);
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 30px;
+            font-size: 0.9rem;
+            color: #6B4A8C;
+            line-height: 1.6;
+        }
+
+        .disclaimer strong {
+            color: #7846A0;
+        }
+
+        .store-badges {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
     </style>
 </head>
 <body>
@@ -225,20 +247,31 @@
             <span class="privacy-icon">🔒</span>
             <strong>Your data stays on your device—completely private.</strong>
         </div>
-        
+
+        <div class="disclaimer">
+            <strong>Important:</strong> Dave is a self-help wellness tool, not a medical device or substitute for professional mental health care. It does not provide medical advice, diagnosis, or treatment. The SOS and Safety Plan features are personal coping tools—they do not connect to emergency services. If you are in crisis or experiencing a mental health emergency, please contact emergency services (999/911) or a crisis helpline immediately.
+        </div>
+
         <div class="download-section">
             <h2 style="color: #7846A0; margin-bottom: 20px;">Download Dave</h2>
-            <!-- Replace with actual App Store link when live -->
-            <a href="https://apps.apple.com/app/dave" target="_blank">
-                <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store" class="app-store-badge">
-            </a>
+            <div class="store-badges">
+                <!-- Replace with actual App Store link when live -->
+                <a href="https://apps.apple.com/app/dave-mental-wellness-buddy/id6740047565" target="_blank">
+                    <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store" class="app-store-badge">
+                </a>
+                <!-- Replace with actual Google Play link when live -->
+                <a href="https://play.google.com/store/apps/details?id=com.lisagills.dave" target="_blank">
+                    <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play" class="app-store-badge" style="height: 73px;">
+                </a>
+            </div>
         </div>
         
         <div class="footer">
-            <p>© 2025 Harness the Spark Ltd</p>
+            <p>&copy; 2025 Harness the Spark Ltd</p>
             <p style="margin-top: 10px;">
-                <a href="support.html">Support</a> ·
-                <a href="privacy.html">Privacy Policy</a> ·
+                <a href="support.html">Support</a> &middot;
+                <a href="privacy.html">Privacy Policy</a> &middot;
+                <a href="terms.html">Terms of Service</a> &middot;
                 <a href="https://harnessthespark.ai">Harness the Spark</a>
             </p>
         </div>
